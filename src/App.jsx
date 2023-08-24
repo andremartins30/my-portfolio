@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Mu
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
-import './app.css'
+import './App.css'
 import './components/Header/header.css'
 import ProjectsSection from './components/projectsSection/ProjectsSection';
 const App = () => {
