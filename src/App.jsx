@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import './App.css'
-import './components/Header/header.css'
+import './components/Header/Header.css'
 import ProjectsSection from './components/projectsSection/ProjectsSection';
 const App = () => {
   return (
