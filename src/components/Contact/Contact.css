@@ -1,14 +1,15 @@
 .contact {
-    background-color: #ccc;
+    background-color: #cccccca9;
     text-align: center;
     height: 300px;
     width: 100%;
-    padding: 100px;
+    padding: 80px;
 }
 
 .contact h1 {
     font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    
 }
 
 .contact ul {
@@ -16,8 +17,22 @@
     padding: 0;
 }
 
-.contact li {
+.contact p {
+    font-weight: bold;
+}
+
+.contact li,
+a {
     font-size: 16px;
     color: #333;
-    margin-bottom: 5px;
+    margin: 16px 10px;
+}
+
+/* Aumentar o tamanho do ícone do LinkedIn */
+.contact a svg.fa-linkedin,
+.contact a svg.fa-whatsapp {
+    font-size: 36px;
+    vertical-align: middle;
+    margin-right: 10px;
+
 }

@@ -16,6 +16,10 @@ header {
     margin-right: 16px;
 }
 
+.links .homepage a{
+    font-size: 28px;
+}
+
 .links .homepage {
     font-size: 28px;
     font-weight: bold;
