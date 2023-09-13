@@ -1,30 +1,71 @@
+/* Estilos para o cabeçalho */
 header {
     background-color: #333;
     color: #fff;
     padding: 14px;
 }
 
+/* Estilos para a navegação */
 .links {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* Estilos para os links na navegação */
 .links a {
     text-decoration: none;
     color: #fff;
-    margin-right: 16px;
+    margin-right: 18px;
+    font-size: 19px;
 }
 
-.links .homepage a{
-    font-size: 28px;
-}
-
-.links .homepage {
+/* Estilos específicos para o link "Meu Portfólio" */
+.links .homepage a {
     font-size: 28px;
     font-weight: bold;
+    animation: changeColor 16s linear infinite;
 }
 
-.links .contato {
-    font-size: 18px;
+/* Animação de mudança de cor */
+@keyframes changeColor {
+    0% {
+        color: #fff;
+        /* Branco */
+    }
+
+    14% {
+        color: #b8ffb8;
+        /* Verde */
+    }
+
+    28% {
+        color: #b8b8ff;
+        /* Azul */
+    }
+
+    42% {
+        color: #ffb8b8;
+        /* Vermelho */
+    }
+
+    57% {
+        color: #b8ffb8;
+        /* Verde */
+    }
+
+    71% {
+        color: #b8b8ff;
+        /* Azul */
+    }
+
+    85% {
+        color: #ffb8b8;
+        /* Vermelho */
+    }
+
+    100% {
+        color: #fff;
+        /* Branco */
+    }
 }

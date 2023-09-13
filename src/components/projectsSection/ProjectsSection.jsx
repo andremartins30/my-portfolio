@@ -11,7 +11,7 @@ const ProjectsSection = () => {
 
     return (
         <section className='projects-section'>
-            <h2>Meus Projetos</h2>
+            <h2>Meus Projetos:</h2>
             <div className='projects-container'>
                 {projects.map(project =>(
                     <div key={project.id} className='project-box'>

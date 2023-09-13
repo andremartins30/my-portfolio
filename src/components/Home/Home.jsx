@@ -4,9 +4,10 @@ import iconImage1 from '../public/react.png'
 import iconImage2 from '../public/mongodb.png'
 import iconImage3 from '../public/nodejs.png'
 import iconImage4 from '../public/express.png'
+import iconImage5 from '../public/typescript.png'
 
 
-const iconNames = [iconImage, iconImage1, iconImage2, iconImage3, iconImage4]
+const iconNames = [iconImage, iconImage5, iconImage1, iconImage2, iconImage3, iconImage4]
 
 const Home = () => {
     return (

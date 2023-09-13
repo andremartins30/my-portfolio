@@ -6,9 +6,10 @@ const Header = () => {
         <header className="header">
             <nav className="links">
                 <div className='homepage'>
-                    <Link to="/">Meu Portfólio</Link>
+                    <Link to="/">André Martins Dev</Link>
                 </div>
-                <div className="contato">
+                <div className='sobre-contato'>
+                    <Link to='/sobre'>Sobre mim</Link>
                     <Link to="/contato">Contato</Link>
                 </div>
             </nav>
