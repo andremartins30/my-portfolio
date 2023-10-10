@@ -3,7 +3,7 @@
     text-align: center;
     height: 300px;
     width: 100%;
-    padding: 50px;
+    padding: 60px;
 }
 
 .contact h1 {
@@ -30,8 +30,9 @@ a {
 
 /* Aumentar o tamanho do ícone do LinkedIn */
 .contact a svg.fa-linkedin,
-.contact a svg.fa-whatsapp {
-    font-size: 36px;
+.contact a svg.fa-github,
+.contact a svg.fa-whatsapp{
+    font-size: 30px;
     vertical-align: middle;
     margin-right: 10px;
 

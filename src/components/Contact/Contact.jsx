@@ -1,6 +1,6 @@
 import './Contact.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
     return (
@@ -10,11 +10,16 @@ const Contact = () => {
             <ul>
                 <li>Email: andre.martins30@hotmail.com</li>
 
-                <li>Telefone: +55 65 99284-1362</li>
-
+                
                 <li>
                     <a href='https://www.linkedin.com/in/andremartins30/' target='_blank' rel="noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <a href="https://github.com/andremartins30" target='_blank' rel='noreferrer'>
+                        <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                    <a href="https://wa.me/5565992841362" target='_blank' rel='noreferrer'>
+                        <FontAwesomeIcon icon={faWhatsapp} />
                     </a>
                 </li>
 

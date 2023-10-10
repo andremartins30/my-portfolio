@@ -8,10 +8,12 @@ const About = () => {
                 <p>
                     Olá! Sou André Martins, um desenvolvedor Full-stack apaixonado por inovação e soluções.</p>
                 <p>
-                    Tenho 3 anos de experiência na área de programação, trabalhei em projetos desafiadores que me permitiram aprender na prática desenvolver habilidades técnicas e comportamentais importantes para o meu crescimento profissional.
+                    Tenho 3 anos de experiência, estou trabalhando em projetos desafiadores que me permitem desenvolver habilidades técnicas e comportamentais importantes para o meu crescimento profissional.                </p>
+                <p>
+                    Graduando em Analise e desenvolvimento de sistemas e Bacharel em Ciência e Tecnologia. Possuo conhecimentos em HTML, CSS, JavaScript, Node.js, MySQL, MongoDB, TypeScript, React.js e outras tecnologias.
                 </p>
                 <p>
-                    Possuo conhecimentos em HTML, CSS, JavaScript, Node.js, MySQL, MongoDB, TypeScript, React.js e outras tecnologias. Estou sempre buscando me atualizar em novas ferramentas de desenvolvimento de software.
+                    Tenho facilidade para aprender outras tecnologias e estou sempre buscando me atualizar com o que há de mais eficiente no mercado.
                 </p>
             </div>
         </div>
