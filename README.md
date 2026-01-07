@@ -1,8 +1,13 @@
-# React + Vite
+# Portfolio Profissional - André Martins
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio moderno e profissional desenvolvido com as mais recentes tecnologias web.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Next.js 15** - Framework React com SSR/SSG
+- **TypeScript** - Type safety e melhor DX
+- **Tailwind CSS** - Estilização utilitária moderna
+- **Framer Motion** - Animações suaves e profissionais
+- **next-themes** - Sistema de temas dark/light
+
+

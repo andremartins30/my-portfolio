@@ -1,0 +1,56 @@
+import { Project } from "@/types";
+
+export const projects: Project[] = [
+    {
+        id: 1,
+        title: "To Do List",
+        description: "Lista de tarefas completa desenvolvida com NodeJS, dados armazenados em banco MongoDB e view engine Handlebars para renderização das páginas.",
+        image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&q=80",
+        technologies: ["Node.js", "MongoDB", "Handlebars", "Express"],
+        githubUrl: "https://github.com/andremartins30/todolist",
+        featured: true,
+    },
+    {
+        id: 2,
+        title: "Sistema de Controle Financeiro",
+        description: "Aplicação de controle financeiro pessoal criada em React com armazenamento local utilizando LocalStorage para persistência de dados.",
+        image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+        technologies: ["React", "JavaScript", "LocalStorage", "CSS"],
+        githubUrl: "https://github.com/andremartins30/controle-financeiro",
+        featured: true,
+    },
+    {
+        id: 3,
+        title: "Pipoca Flix",
+        description: "Site de filmes e séries criado em React e NodeJS com integração de APIs públicas para exibição de filmes, séries, sinopses e trailers.",
+        image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&q=80",
+        technologies: ["React", "Node.js", "APIs Públicas", "JavaScript"],
+        githubUrl: "https://github.com/andremartins30/pipoca-flix",
+        featured: true,
+    },
+    {
+        id: 4,
+        title: "Redaline IA - Projeto Centelha 3",
+        description: "Projeto inovador concorrendo ao Centelha 3. Sistema completo com landing page comercial em Next.js, sistema de leitura de manuscritos usando Google Document AI, PaddleOCR e ChandraOCR, correção de redações com IA Generativa + RAG utilizando n8n e Supabase Vector Database.",
+        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+        technologies: ["Next.js", "Node.js", "Google Document AI", "PaddleOCR", "n8n", "Supabase", "IA Generativa", "RAG"],
+        githubUrl: "https://github.com/andremartins30/redaline-ia",
+        featured: true,
+    },
+    {
+        id: 5,
+        title: "Gestão de Armazém Mobile",
+        description: "Aplicação mobile completa para gestão de armazém utilizando AdonisJS no backend, React Native para mobile e React JS para painel web. Projeto privado.",
+        image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+        technologies: ["AdonisJS", "React Native", "React.js", "PostgreSQL"],
+        featured: false,
+    },
+    {
+        id: 6,
+        title: "Sistema de Gestão de Fazendas",
+        description: "Sistema web para gestão de insumos de fazendas com controle por biometria facial Hikvision, integrado com TOTVS RM. Utiliza API SOUP Totvs RM, NextJS, Artemis Hikvision API e PostgreSQL. Projeto privado.",
+        image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&q=80",
+        technologies: ["Next.js", "PostgreSQL", "TOTVS RM", "Hikvision API", "Biometria Facial"],
+        featured: false,
+    },
+];
